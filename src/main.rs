@@ -19,6 +19,8 @@ fn main() -> Result<()> {
     match (day, part) {
         (1, 1) => println!("{}", days::day01::part1(&input)),
         (1, 2) => println!("{}", days::day01::part2(&input)),
+        (2, 1) => println!("{}", days::day02::part1(&input)),
+        (2, 2) => println!("{}", days::day02::part2(&input)),
         _ => anyhow::bail!("Day {day} part {part} is not implemented"),
     }
 
