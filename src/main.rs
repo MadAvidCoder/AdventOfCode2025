@@ -17,11 +17,11 @@ fn main() -> Result<()> {
     let input = util::read_input(day);
 
     match (day, part) {
-        (1, 1) => println!("{}", days::day01::part1(&input)),
-        (1, 2) => println!("{}", days::day01::part2(&input)),
-        (2, 1) => println!("{}", days::day02::part1(&input)),
-        (2, 2) => println!("{}", days::day02::part2(&input)),
-        _ => anyhow::bail!("Day {day} part {part} is not implemented"),
+        (1, 1) => println!("The answer to Day 1 - Part 1 is: {}", days::day01::part1(&input)),
+        (1, 2) => println!("The answer to Day 1 - Part 2 is: {}", days::day01::part2(&input)),
+        (2, 1) => println!("The answer to Day 2 - Part 1 is: {}", days::day02::part1(&input)),
+        (2, 2) => println!("The answer to Day 2 - Part 2 is: {}", days::day02::part2(&input)),
+        _ => anyhow::bail!("Day {day} part {part} is not yet solved!"),
     }
 
     Ok(())
