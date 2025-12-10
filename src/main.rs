@@ -27,6 +27,8 @@ fn main() -> Result<()> {
         (4, 2) => println!("The answer to Day 4 - Part 2 is: {}", days::day04::part2(&input)),
         (5, 1) => println!("The answer to Day 5 - Part 1 is: {}", days::day05::part1(&input)),
         (5, 2) => println!("The answer to Day 5 - Part 2 is: {}", days::day05::part2(&input)),
+        (6, 1) => println!("The answer to Day 6 - Part 1 is: {}", days::day06::part1(&input)),
+        (6, 2) => println!("The answer to Day 6 - Part 2 is: {}", days::day06::part2(&input)),
         _ => anyhow::bail!("Day {day} part {part} is not yet solved!"),
     }
 
