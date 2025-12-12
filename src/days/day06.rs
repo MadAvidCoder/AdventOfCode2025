@@ -3,7 +3,7 @@ pub fn part1(input: &str) -> u64 {
 
     let sheet: Vec<Vec<u32>> = input
         .lines()
-        .map(|line| {;
+        .map(|line| {
             line.split_whitespace()
                 .map(|num| {
                     match num.parse::<u32>() {

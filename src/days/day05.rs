@@ -55,7 +55,7 @@ pub fn part2(input: &str) -> u64 {
     }
 
     for (start, end) in merged {
-        count += (end - start + 1);
+        count += end - start + 1;
     }
 
     count

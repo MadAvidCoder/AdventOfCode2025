@@ -1,5 +1,3 @@
-use std::hash::Hash;
-
 pub fn part1(input: &str) -> u32 {
     let grid: Vec<Vec<char>> = input
         .lines()
